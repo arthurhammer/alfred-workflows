@@ -10,13 +10,12 @@ https://github.com/arthurhammer/alfred-workflows
 
 ## Improvements
 
-Ideas for improvements, just for reference. The workflow is currently working great for me so I don't have plans to implement these for now.
+Ideas for improvements, just for reference. The workflow is currently working great for me so I don't have plans to necessarily implement these.
 
 - Auto-update
 - Option to include/exclude disabled workflows
 - Execute hotkey on enter
 - Search by workflow name, title, subtitle
-- Summary of workflows instead of individual workflow commands
 
 ## Resources
 

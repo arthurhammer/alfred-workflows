@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>me.ahammer.help</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>5A2A1B03-7834-4BBB-970F-C0B91ED66294</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CBB7F5A8-E368-4DB6-A486-40D968365EF2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>63B54A8D-FCC5-4D1F-B32D-6D53ABDD7620</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CBB7F5A8-E368-4DB6-A486-40D968365EF2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Arthur Hammer</string>
+	<key>description</key>
+	<string>Shows available Workflow commands 👍</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Help</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:keywordkeyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Reading...</string>
+				<key>script</key>
+				<string>python help.py "keyword"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Show all Workflow commands by keywords &amp; hotkeys</string>
+				<key>title</key>
+				<string>Help</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>63B54A8D-FCC5-4D1F-B32D-6D53ABDD7620</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  tell application "Alfred 3" to search q
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>CBB7F5A8-E368-4DB6-A486-40D968365EF2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:keywordtitle}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Reading...</string>
+				<key>script</key>
+				<string>python help.py "title"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Show all Workflow commands by titles</string>
+				<key>title</key>
+				<string>Help</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>5A2A1B03-7834-4BBB-970F-C0B91ED66294</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Help 
+
+The "help page" for Alfred. 
+
+Forgetting which keywords and shortcuts are available in your workflows? Type "help".
+
+
+--- Usage
+
+- 📖 Type "help".
+- 🔍 Filter commands by typing a query.
+- 🚀 Hit enter to execute the selected command.
+
+
+--- More
+
+- "help" gives you commands by keyword &amp; shortcut
+- "helptitle" gives you commands by title 
+- Customize the keywords in the variables section
+
+
+https://github.com/arthurhammer/alfred-workflows</string>
+	<key>uidata</key>
+	<dict>
+		<key>5A2A1B03-7834-4BBB-970F-C0B91ED66294</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+		<key>63B54A8D-FCC5-4D1F-B32D-6D53ABDD7620</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>CBB7F5A8-E368-4DB6-A486-40D968365EF2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>330</integer>
+			<key>ypos</key>
+			<integer>100</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>keywordkeyword</key>
+		<string>help</string>
+		<key>keywordtitle</key>
+		<string>helptitle</string>
+	</dict>
+	<key>version</key>
+	<string>0.0.1</string>
+	<key>webaddress</key>
+	<string>https://github.com/arthurhammer/alfred-workflows</string>
+</dict>
+</plist>
