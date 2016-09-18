@@ -12,7 +12,7 @@ from AppKit import NSCommandKeyMask, NSAlternateKeyMask, \
 
 
 class Workflow(object):
-    """Thin wrapper around a workflow `info.plist` file..
+    """Thin wrapper around a workflow `info.plist` file.
 
     Does not support all keys.
 

@@ -60,6 +60,5 @@ def items(workflow, dirpath, title_pref='keyword'):
         return title, subtitle
 
     # Interested only in keywords and hotkeys
-    objects = [obj for obj in workflow.objects
-               if any([obj.keyword, obj.hotstring])]
-    return map(item, objects)
+    objects = [obj for obj in workflow.objects if obj.keyword or obj.hotstring]
+    return map(item, objects)        

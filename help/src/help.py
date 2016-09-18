@@ -47,7 +47,7 @@ def main():
 
     # Massage into feedback
     for dirpath, workflow in workflows:
-        if not workflow.disabled or include_disabled:
+        if include_disabled or not workflow.disabled:
             items = feedback.items(workflow,
                                    dirpath=dirpath,
                                    title_pref=title_pref)

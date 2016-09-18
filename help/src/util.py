@@ -11,15 +11,10 @@ import sys
 # Paths & Files
 
 def workflows_dirpaths():
-    """List of paths of all installed Alfred workflows.
-
-    Resolved from the current working directory assuming Alfred executes this
-    workflow from its directory. If not, ouch!
-
-    """
-    cwd = os.getcwd()
-    parent = os.path.dirname(cwd)
-    return _subdirpaths(parent)
+    """List of paths of all installed Alfred workflows."""
+    prefs = os.environ['alfred_preferences']  # Set by Alfred
+    workflows = os.path.join(prefs, 'workflows')
+    return _subdirpaths(workflows)
 
 
 def iconpath(wf_obj, wf, dirpath=''):
@@ -39,7 +34,7 @@ def iconpath(wf_obj, wf, dirpath=''):
     return None
 
 
-def workflow_default_iconpath():
+def workflow_default_iconpath(alfred_path='/Applications/Alfred 3.app'):
     """The path to Alfred's default workflow icon.
 
     Can't bundle cuz copyright.
@@ -50,9 +45,9 @@ def workflow_default_iconpath():
         - Alfred changes the icon's location
 
     """
-    return ('/Applications/Alfred 3.app/'
-            'Contents/Frameworks/Alfred Framework.framework/Versions/A/'
+    icon = ('Contents/Frameworks/Alfred Framework.framework/Versions/A/'
             'Resources/workflow_default.png')
+    return os.path.join(alfred_path, icon)
 
 
 # Variables

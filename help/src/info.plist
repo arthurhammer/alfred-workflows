@@ -150,26 +150,23 @@ end alfred_script</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># Help 
+	<string># Help
 
-The "help page" for Alfred. 
+The Help Page for your Alfred Workflows.
 
-Forgetting which keywords and shortcuts are available in your workflows? Type "help".
+Forgetting which keywords and shortcuts are available in your Alfred workflows, like I do? Type `help`.
 
+Usage:
 
---- Usage
+    help             📖 List available commands
+    help &lt;query&gt;     🔍 Filter available commands
+    enter            🚀 Execute the selected command
 
-- 📖 Type "help".
-- 🔍 Filter commands by typing a query.
-- 🚀 Hit enter to execute the selected command.
+More:
 
+`help` lists commands by keywords and shortcuts, `helptitle` lists commands by title. Customize the keywords in the variables section in Alfred Preferences.
 
---- More
-
-- "help" gives you commands by keyword &amp; shortcut
-- "helptitle" gives you commands by title 
-- Customize the keywords in the variables section
-
+---
 
 https://github.com/arthurhammer/alfred-workflows</string>
 	<key>uidata</key>

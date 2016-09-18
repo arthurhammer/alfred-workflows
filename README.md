@@ -1,22 +1,17 @@
-# Alfred Help
+# My Alfred Workflows
 
-https://github.com/arthurhammer/alfred-workflows
+### Help
 
-- FIXME Description
-- FIXME gif
-- FIXME: https://github.com/jmjeong/alfred-extension/tree/master/managealfredextension, http://www.packal.org/workflow/manage-alfred-extension-0
-- FIXME: license
-- FIXME: icon license http://www.softicons.com/toolbar-icons/help-icons-by-kyo-tux/blue-help-icon LICENSE
+The Help Page for your Alfred Workflows.
 
-## Improvements
+[Info](help) | [Install](help/Help.alfredworkflow)
 
-Ideas for improvements, just for reference. The workflow is currently working great for me so I don't have plans to implement these for now.
+---
 
-- Auto-update
-- Option to include/exclude disabled workflows
-- Execute hotkey on enter
-- Search by workflow name, title, subtitle
-- Summary of workflows instead of individual workflow commands
+### Contribute
 
-## Resources
+Contributions are welcome! 👍😀
 
+### License
+
+Unless specifically otherwise noted, available under the [MIT License](LICENSE).
