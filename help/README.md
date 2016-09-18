@@ -36,5 +36,5 @@ If this workflow isn't for you, Jaemok Jeong's `Manage Alfred Extension` might b
 ### License
 
 - Main Code: [MIT](../LICENSE)
-- Code in `vendor/workflow`: [MIT](vendor/workflow/LICENSE.txt)
-- Icon: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) — [Blue Help Icon](http://www.softicons.com/toolbar-icons/help-icons-by-kyo-tux/blue-help-icon) by [kyo-tux](http://www.softicons.com/designers/kyo-tux)
+- Code in `src/vendor/workflow`: [MIT](src/vendor/workflow/LICENSE.txt)
+- `src/icon.png`: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) — [Blue Help Icon](http://www.softicons.com/toolbar-icons/help-icons-by-kyo-tux/blue-help-icon) by [kyo-tux](http://www.softicons.com/designers/kyo-tux)
