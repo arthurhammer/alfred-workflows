@@ -4,7 +4,7 @@
 
 The Help Page for your Alfred Workflows.
 
-[Info](help) | [Install](help/Help.alfredworkflow)
+[Info](help) | [Install](help/Help.alfredworkflow?raw=true)
 
 ---
 

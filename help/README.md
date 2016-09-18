@@ -4,7 +4,7 @@ The Help Page for your Alfred Workflows.
 
 Forgetting which keywords and shortcuts are available in your Alfred workflows, like I do? Type `help`.
 
-FIXME GIF
+![Screenshot](screenshot.gif)
 
 ### Usage
 
@@ -18,7 +18,7 @@ More:
 
 ### Install
 
-[Download and open `Help.alfredworkflow`](Help.alfredworkflow).
+[Download and open `Help.alfredworkflow`](Help.alfredworkflow?raw=true).
 
 ### Improvements
 
