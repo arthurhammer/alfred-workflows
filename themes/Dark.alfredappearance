@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 4,
+      "subtext" : {
+        "size" : 11,
+        "colorSelected" : "#FFFFFFCC",
+        "font" : "System",
+        "color" : "#FFFFFF66"
+      },
+      "shortcut" : {
+        "size" : 14,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System",
+        "color" : "#FEFFFF66"
+      },
+      "backgroundSelected" : "#A5A5A586",
+      "text" : {
+        "size" : 15,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System",
+        "color" : "#FFFFFFD8"
+      },
+      "iconPaddingHorizontal" : 7,
+      "paddingVertical" : 3,
+      "iconSize" : 40
+    },
+    "search" : {
+      "paddingVertical" : 7,
+      "background" : "#24242400",
+      "spacing" : 4,
+      "text" : {
+        "size" : 34,
+        "colorSelected" : "#000000FF",
+        "font" : "System Light",
+        "color" : "#FFFFFFFF"
+      },
+      "backgroundSelected" : "#B2D7FFFF"
+    },
+    "window" : {
+      "color" : "#242424CD",
+      "paddingHorizontal" : 0,
+      "width" : 604,
+      "borderPadding" : 0,
+      "borderColor" : "#0000007F",
+      "blur" : 25,
+      "roundness" : 9,
+      "paddingVertical" : 4
+    },
+    "credit" : "Arthur Hammer",
+    "separator" : {
+      "color" : "#CBCBCB00",
+      "thickness" : 4
+    },
+    "scrollbar" : {
+      "color" : "#6D6D6DFF",
+      "thickness" : 2
+    },
+    "name" : "Dark"
+  }
+}
