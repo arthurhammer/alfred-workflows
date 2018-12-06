@@ -10,7 +10,7 @@ Shortcut `⌘.` (can be configured) brings the file action panel for the current
 
 ### Install
 
-[Download and open the workflow](File Actions.alfredworkflow?raw=true).
+[Download and open the workflow](File%20Actions.alfredworkflow?raw=true).
 
 ### License
 
