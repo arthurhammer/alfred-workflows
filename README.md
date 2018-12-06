@@ -4,7 +4,7 @@
 
 Brings Alfred's Finder file actions to any document-based app.
 
-[Info](file-actions++) | [Install](file-actions++/File Actions++.alfredworkflow?raw=true)
+[Info](file-actions) | [Install](file-actions/File Actions.alfredworkflow?raw=true)
 
 ### Help
 

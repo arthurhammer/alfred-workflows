@@ -2,7 +2,7 @@
 
 Brings Alfred's Finder file actions to any document-based app. Allows you to quickly perform actions on the currently opened file.
 
-![Screenshot](screenshot.mp4)
+![Screenshot](screenshot.gif)
 
 ### Usage
 
@@ -10,7 +10,7 @@ Shortcut `⌘.` (can be configured) brings the file action panel for the current
 
 ### Install
 
-[Download and open the workflow](File Actions++.alfredworkflow?raw=true).
+[Download and open the workflow](File Actions.alfredworkflow?raw=true).
 
 ### License
 
