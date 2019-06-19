@@ -6,6 +6,9 @@ Forgetting which keywords and shortcuts are available in your Alfred workflows, 
 
 ![Screenshot](screenshot.gif)
 
+***Note**: This workflow was built for Alfred 3. The new Alfred 4 finally comes with a [feature very similar to this](https://www.alfredapp.com/whats-new/).*
+
+
 ### Usage
 
     help             📖 List available commands
