@@ -2,6 +2,8 @@
 
 Brings Alfred's Finder file actions to any document-based app. Allows you to quickly perform actions on the currently opened file.
 
+Read more about it [here](https://arthurhammer.de/2018/07/alfred-file-actions-plus-plus/).
+
 ![Screenshot](screenshot.gif)
 
 ### Usage
